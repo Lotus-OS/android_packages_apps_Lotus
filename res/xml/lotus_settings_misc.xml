@@ -25,13 +25,12 @@
         android:summary="@string/wake_when_plugged_or_unplugged_summary"
         android:defaultValue="false" />
 
-    <com.lotus.settings.preferences.SystemSettingSwitchPreference
+    <ListPreference
         android:key="headset_connect_player"
         android:icon="@drawable/ic_headset"
         android:title="@string/headset_connect_player_title"
-        android:summary="@string/headset_connect_player_summary"
-        android:defaultValue="false" />
-
+        android:entries="@array/headset_connect_player_entries"
+        android:entryValues="@array/headset_connect_player_values" />
    <Preference
         android:key="gaming_mode"
         android:title="@string/gaming_mode_title"
