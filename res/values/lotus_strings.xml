@@ -59,4 +59,7 @@
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar buttons</string>
 
+    <!-- notification's settings -->
+    <string name="notification_light_settings">Notifications light</string>
+
 </resources>
