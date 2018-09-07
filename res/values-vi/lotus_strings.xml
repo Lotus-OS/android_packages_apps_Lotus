@@ -917,4 +917,11 @@
     <string name="trigger_top_summary">Điều chỉnh vị trí theo chiều dọc của vùng kích hoạt</string>
     <string name="trigger_bottom_title">Chiều cao kích hoạt</string>
     <string name="trigger_bottom_summary">Điều chỉnh chiều cao của khu vực kích hoạt</string>
+	
+	<!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">Đèn pin nhấp nháy khi gọi</string>
+    <string name="flashlight_on_call_disabled">Tắt</string>
+    <string name="flashlight_on_call_not_dnd">Đèn pin nhấp nháy chỉ trong chế độ chuông</string>
+    <string name="flashlight_on_call_dnd">Đèn pin nhấp nháy chỉ trong chế độ không làm phiền</string>
+    <string name="flashlight_on_call_always">Luôn nháy đèn pin</string>
 </resources>

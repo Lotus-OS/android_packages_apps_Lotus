@@ -24,6 +24,14 @@
         android:title="@string/wake_when_plugged_or_unplugged_title"
         android:summary="@string/wake_when_plugged_or_unplugged_summary"
         android:defaultValue="false" />
+		
+	<!-- Flashlight on incoming calls -->
+        <ListPreference
+            android:key="flashlight_on_call"
+            android:title="@string/flashlight_on_call_title"
+			android:icon="@drawable/ic_flashlight"
+            android:entries="@array/flashlight_on_call_entries"
+            android:entryValues="@array/flashlight_on_call_values" />
 
     <ListPreference
         android:key="headset_connect_player"
