@@ -25,6 +25,7 @@
     <string name="lockscreen_title">Màn hình khoá</string>
     <string name="animations_title">Hoạt ảnh</string>
     <string name="misc_title">Linh tinh</string>
+    <string name="recents_title">Gần đây</string>
     <string name="navbar_title">Thanh điều hướng</string>
     <string name="powermenu_title">Menu nguồn</string>
     <string name="quicksettings_title">Cài đặt nhanh</string>
@@ -817,4 +818,9 @@
     <string name="ticker_animation_mode_alpha_fade">Phai màu</string>
     <string name="ticker_animation_mode_scroll">Cuộn</string>
     <string name="ticker_tick_duration_title">Thời lượng Ticker</string>
+	
+	<!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Kiểu gần đây</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
 </resources>

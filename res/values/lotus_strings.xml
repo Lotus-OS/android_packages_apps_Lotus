@@ -25,6 +25,7 @@
     <string name="animations_title">Animations</string>
     <string name="lockscreen_title">Lock screen</string>
     <string name="misc_title">Miscellaneous</string>
+    <string name="recents_title">Recents</string>
     <string name="navbar_title">Navigation bar</string>
     <string name="powermenu_title">Power menu</string>
     <string name="quicksettings_title">Quick settings</string>
@@ -953,4 +954,9 @@
     <string name="ticker_animation_mode_alpha_fade">Fade</string>
     <string name="ticker_animation_mode_scroll">Scroll</string>
     <string name="ticker_tick_duration_title">Ticker duration</string>
+	
+	<!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Recents Style</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
 </resources>

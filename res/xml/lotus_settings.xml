@@ -35,6 +35,13 @@
             android:fragment="com.lotus.settings.fragments.Interfaces"
             android:icon="@drawable/ic_settings_inter"/>
 
+        <!-- Recents -->
+        <Preference
+            android:key="recents_category"
+            android:title="@string/recents_title"
+            android:fragment="com.lotus.settings.fragments.Recents"
+            android:icon="@drawable/ic_settings_recents"/>
+
         <!-- Buttons -->
         <Preference
             android:key="buttonsettings_category"
