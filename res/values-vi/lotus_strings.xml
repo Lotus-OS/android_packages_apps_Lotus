@@ -808,4 +808,13 @@
      <!-- Launch music player when headset is connected -->
     <string name="headset_connect_player_title">Khởi chạy ứng dụng âm nhạc</string>
     <string name="headset_connect_player_summary">Khởi chạy ứng dụng nhạc mặc định khi tai nghe được kết nối</string>
+	
+	<!-- Statusbar ticker -->
+    <string name="status_bar_ticker_title">Ticker</string>
+    <string name="status_bar_show_ticker_title">Ticker</string>
+    <string name="status_bar_show_ticker_summary">Xem trước thông báo trên thanh trạng thái</string>
+    <string name="ticker_animation_mode_title">Hiệu ứng Ticker</string>
+    <string name="ticker_animation_mode_alpha_fade">Phai màu</string>
+    <string name="ticker_animation_mode_scroll">Cuộn</string>
+    <string name="ticker_tick_duration_title">Thời lượng Ticker</string>
 </resources>
