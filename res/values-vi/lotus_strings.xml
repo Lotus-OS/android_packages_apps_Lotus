@@ -825,4 +825,60 @@
     <string name="recents_stock">Stock</string>
     <string name="recents_grid">Grid</string>
     <string name="recents_go">Android Go</string>
+	
+	<!-- Slim recents -->
+    <string name="slim_recents_title">Màn hình gần đây Mỏng</string>
+    <string name="slim_recents_summary">Cho phép sử dụng một màn hình đa nhiệm thay thế</string>
+    <string name="slim_recents_fragment_title">Cài đặt slim recents</string>
+    <string name="slim_recents_fragment_summary">Tùy chỉnh các cài đặt bổ sung cho giao diện gần đây Mỏng</string>
+    <string name="recents_max_apps_title">Ứng dụng cho phép tối đa</string>
+    <string name="recent_panel_scale_title">Kích thước</string>
+    <string name="recent_panel_expanded_mode_title">Chế độ mở rộng</string>
+    <string name="recent_panel_expanded_mode_summary">Chế độ xem trước của Bảng ứng dụng gần đây</string>
+    <string name="recent_panel_expanded_mode_auto">Tự động (mặc định)</string>
+    <string name="recent_panel_expanded_mode_always">Luôn luôn</string>
+    <string name="recent_panel_expanded_mode_never">Không bao giờ</string>
+    <string name="recent_panel_expanded_mode_disabled">Tắt</string>
+    <string name="recent_panel_bg_color_title">Màu nền bảng ứng dụng gần đây</string>
+    <string name="recent_card_bg_color_title">Màu nền thẻ Ứng dụng gần đây</string>
+    <string name="slim_recents_mem_display_long_click_clear_title">Nhấn giữ thanh hiển thị bộ nhớ</string>
+    <string name="slim_recents_mem_display_long_click_clear_summary">Xóa các mục gần đây bằng cách nhấn giữ thanh hiển thị bộ nhớ</string>
+    <string name="slim_icon_pack_title">Gói biểu tượng</string>
+    <string name="slim_icon_pack_summary">Áp dụng một gói biểu tượng tuỳ chỉnh cho các ứng dụng trong bảng điều khiển</string>
+    <string name="no_iconpacks_summary">Chưa cài gói biểu tượng</string>
+    <string name="dialog_pick_iconpack_title">Chọn gói biểu tượng</string>
+    <string name="default_iconpack_title">Biểu tượng mặc định</string>
+    <string name="slim_recents_corner_radius_title">Bán kính góc</string>
+	
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Hiển thị trên cạnh trái</string>
+    <string name="recent_panel_lefty_mode_summary">Hiện bảng điều khiển ứng dụng gần đây trên cạnh trái</string>
+    <string name="slim_blacklist_apps_cat_title">Danh sách đen</string>
+    <string name="slim_blacklist_apps_title">Danh sách ứng dụng đen</string>
+    <string name="slim_blacklist_apps_summary">Ứng dụng không hiển thị trong bảng điều khiển</string>
+    <string name="slim_blacklist_add_apps_title">Thêm ứ.dụng</string>
+    <string name="slim_blacklist_add_apps_summary">Chạm vào đây để thêm, chạm vào ứng dụng đã thêm để xóa</string>
+	
+    <!-- Slim Recent App Sidebar  -->
+    <string name="recent_app_sidebar_cat_title">Thanh bên ứng dụng</string>
+    <string name="recent_app_sidebar_title">Thanh bên các ứng dụng gần đây</string>
+    <string name="recent_app_sidebar_summary">Hiện các lối tắt ứng dụng trên cạnh khác</string>
+    <string name="recent_app_sidebar_picker_title">Phím tắt cạnh bên</string>
+    <string name="recent_app_sidebar_picker_summary">Chọn ứng dụng hiện thị trên cạnh bên</string>
+    <string name="recent_app_sidebar_style_title">Kiểu thanh bên</string>
+    <string name="recent_app_sidebar_style_summary">Thay đổi giao diện của thanh bên</string>
+    <string name="recent_app_sidebar_hide_labels_title">Ẩn nhãn biểu tượng</string>
+    <string name="recent_app_sidebar_label_color_title">Màu nhãn</string>
+    <string name="recent_app_sidebar_bg_color_title">Màu nền</string>
+    <string name="recent_app_sidebar_scale_title">Kích thước</string>
+    <string name="recent_app_sidebar_open_simultaneously_title">Mở đồng thời với danh sách gần đây</string>
+    <string name="recent_app_sidebar_open_simultaneously_summary">Giảm độ trễ khi mở danh sách gần đây bằng cách tắt nó</string>
+    <string name="default_auto_string">Mặc định (dựa trên ứng dụng)</string>
+	
+    <!-- Slim recents membar -->
+    <string name="slim_recents_mem_display_category_title">Thanh bộ nhớ</string>
+    <string name="slim_recents_mem_display_title">Thanh hiển thị bộ nhớ</string>
+    <string name="slim_recents_mem_display_summary">Hiển thị một thanh tiến trình hiển thị bộ nhớ RAM</string>
+    <string name="slim_recents_mem_display_color">Màu thanh bộ nhớ</string>
+    <string name="slim_recents_mem_display_text_color">Màu văn bản thanh bộ nhớ</string>
 </resources>
