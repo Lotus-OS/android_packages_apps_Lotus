@@ -29,7 +29,7 @@
         <ListPreference
             android:key="flashlight_on_call"
             android:title="@string/flashlight_on_call_title"
-			android:icon="@drawable/ic_flashlight"
+	    android:icon="@drawable/ic_flashlight"
             android:entries="@array/flashlight_on_call_entries"
             android:entryValues="@array/flashlight_on_call_values" />
 
@@ -75,18 +75,21 @@
             android:key="vibrate_on_connect"
             android:icon="@drawable/ic_vibrator"
             android:title="@string/incall_vibrate_connect_title"
+            android:summary="@string/incall_vibrate_connect_summary"
             android:defaultValue="false" />
 
         <com.lotus.settings.preferences.SystemSettingSwitchPreference
             android:key="vibrate_on_callwaiting"
             android:icon="@drawable/ic_vibrator"
             android:title="@string/incall_vibrate_call_wait_title"
+            android:summary="@string/incall_vibrate_connect_summary"
             android:defaultValue="false" />
 
         <com.lotus.settings.preferences.SystemSettingSwitchPreference
             android:key="vibrate_on_disconnect"
             android:icon="@drawable/ic_vibrator"
             android:title="@string/incall_vibrate_disconnect_title"
+            android:summary="@string/incall_vibrate_connect_summary"
             android:defaultValue="false" />
     </PreferenceCategory>
 

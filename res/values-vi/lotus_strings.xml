@@ -502,10 +502,13 @@
     <string name="file_header_select_summary">Chọn ảnh tùy chỉnh</string>
     <string name="file_header_provider_title">Hình ảnh tùy chỉnh</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Các tùy chọn rung trong cuộc gọi</string>
     <string name="incall_vibrate_connect_title">Rung khi kết nối</string>
     <string name="incall_vibrate_call_wait_title">Rung khi chờ cuộc gọi</string>
     <string name="incall_vibrate_disconnect_title">Rung khi ngắt kết nối</string>
+	<string name="incall_vibration_category">Rung trong cuộc gọi</string>
+    <string name="incall_vibrate_connect_summary">Bật chế độ rung cuộc gọi được kết nối</string>
+    <string name="incall_vibrate_call_wait_summary">Bật để rung trong khi cuộc gọi đang chờ</string>
+    <string name="incall_vibrate_disconnect_summary">Bật để rung sau khi ngắt kết nối cuộc gọi</string>
     <!-- Battery Bar -->
     <string name="battery_bar_title">Thanh hiển thị pin</string>
     <string name="battery_bar_summary">Hiển thị và tuỳ chỉnh thanh pin gần thanh trạng thái hoặc thanh điều hướng</string>
