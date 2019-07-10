@@ -751,6 +751,8 @@
     <string name="add_gaming_mode_package_summary">Chế độ chơi trò chơi sẽ tự động được bật cho các ứng dụng đã chọn</string>
     <string name="gaming_mode_headsup_title">Chặn thông báo</string>
     <string name="gaming_mode_headsup_summary">Chặn tất cả các tin nhắn headup ngoại trừ các cuộc gọi</string>
+	<string name="gaming_mode_gestures_title">Tắt cử chỉ</string>
+    <string name="gaming_mode_gestures_summary">Tắt điều hướng cử chỉ khi chế độ Chơi trò chơi được bật.</string>
     <string name="gaming_mode_hardware_keys_title">Nút khóa</string>
     <string name="gaming_mode_hardware_keys_summary">Tắt các nút phần cứng khi chế độ Chơi trò chơi được bật</string>
     <string name="gaming_mode_brightness_title">Tắt độ sáng tự động</string>
