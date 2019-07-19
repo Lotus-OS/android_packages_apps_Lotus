@@ -16,9 +16,11 @@
 
 package com.lotus.settings.fragments;
 import android.content.Context;
+import android.content.ContentResolver;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.provider.SearchIndexableResource;
 import android.support.v14.preference.SwitchPreference;
@@ -27,6 +29,7 @@ import android.provider.Settings;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
+import com.lotus.settings.preferences.SystemSettingMasterSwitchPreference;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 
@@ -35,11 +38,20 @@ import java.util.List;
 
 public class CustomGestureSettings extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener, Indexable {
 
+   private static final String GESTURE_ANYWHERE_ENABLED = "gesture_anywhere_enabled"; 
+   private SystemSettingMasterSwitchPreference mGestureAnywhereEnabled; 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.lotus_settings_gestures);
+		 PreferenceScreen prefSet = getPreferenceScreen();
+        ContentResolver resolver = getActivity().getContentResolver();
+		
+		mGestureAnywhereEnabled = (SystemSettingMasterSwitchPreference) findPreference(GESTURE_ANYWHERE_ENABLED);
+        mGestureAnywhereEnabled.setOnPreferenceChangeListener(this);
+        int gestureAnywhereEnabled = Settings.System.getInt(resolver, GESTURE_ANYWHERE_ENABLED, 0);
+        mGestureAnywhereEnabled.setChecked(gestureAnywhereEnabled != 0);
     }
 
     @Override
@@ -49,6 +61,12 @@ public class CustomGestureSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+	ContentResolver resolver = getActivity().getContentResolver();
+	 if (preference == mGestureAnywhereEnabled) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(resolver, GESTURE_ANYWHERE_ENABLED, value ? 1 : 0);
+            return true;
+	 }
         return false;
     }
 

@@ -28,6 +28,13 @@
         android:title="@string/status_bar_double_tap_to_sleep_title"
         android:summary="@string/status_bar_double_tap_to_sleep_summary"
         android:defaultValue="false" />
+	
+	<com.lotus.settings.preferences.SystemSettingMasterSwitchPreference
+            android:key="gesture_anywhere_enabled"
+            android:fragment="com.lotus.settings.fragments.GestureAnywhereSettings"
+            android:title="@string/gesture_anywhere_title"
+            android:summary="@string/gesture_anywhere_summary"
+            android:defaultValue="false" />
 		
     <com.lotus.settings.preferences.SystemSettingSwitchPreference
         android:key="status_bar_brightness_control"
