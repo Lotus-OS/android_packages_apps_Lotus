@@ -443,6 +443,8 @@
     <string name="lockscreen_date_selection_str_gradient">Gradient</string>
     <string name="lockscreen_date_selection_str_border_accent">Dark with accented borders</string>
     <string name="lockscreen_date_selection_str_border_gradient">Dark with gradient borders</string>
+	<string name="lockscreen_date_selection_str_half_gradient">Gradient(Rounded) with transparent ending</string>
+    <string name="lockscreen_date_selection_str_half_accent">Accent(rounded) with transparent ending</string>
 
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Show data disabled icon</string>

@@ -389,6 +389,8 @@
     <string name="lockscreen_date_selection_str_gradient">Màu chuyển sắc</string>
     <string name="lockscreen_date_selection_str_border_accent">Tối với viền có dấu</string>
     <string name="lockscreen_date_selection_str_border_gradient">Tối với viền chuyển màu</string>
+	<string name="lockscreen_date_selection_str_half_gradient">Gradient(Tròn) với kết thúc trong suốt</string>
+    <string name="lockscreen_date_selection_str_half_accent">Màu dấu(Tròn) với kết thúc trong suốt</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Hiển thị biểu tượng tắt mạng di động</string>
     <string name="data_disabled_icon_summary">Hiển thị các dấu hiệu chéo bên cạnh thanh tín hiệu khi dữ liệu bị vô hiệu hóa</string>
