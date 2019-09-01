@@ -83,7 +83,7 @@
     <string name="status_bar_battery_style_pa_circle">AOSPA Circle</string>
 
     <!-- Power Menu -->
-    <string name="powermenu_category_title">Power menu toggles</string>
+	<string name="powermenu_category_title">Power menu toggles</string>
     <string name="powermenu_screenshot">Screenshot</string>
     <string name="powermenu_power">Power</string>
     <string name="powermenu_restart">Restart</string>
@@ -125,10 +125,6 @@
     <string name="qs_auto_brightness_right_summary">Move the adaptive brightness button to the right of the brightness slider</string>
     <string name="qs_show_brightness_buttons_title">Brightness control buttons</string>
     <string name="qs_show_brightness_buttons_summary">Show buttons to increase or decrease the brightness</string>
-
-    <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_power_menu_disabled_title">No power menu when locked</string>
-    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>
 
     <string name="notification_sound_vib_screen_on_title">Noisy notifications if screen on</string>
     <string name="notification_sound_vib_screen_on_summary">Disable to block notifications sound and vibration when the screen is awake</string>
