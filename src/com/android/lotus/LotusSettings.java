@@ -1,4 +1,4 @@
-package com.aosip.owlsnest;
+package com.android.lotus;
 
 import android.os.Bundle;
 import android.preference.Preference;
@@ -12,20 +12,20 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 
-public class OwlsNestSettings extends SettingsPreferenceFragment implements
+public class LotusSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
-    private static final String TAG = "OwlsNestSettings";
+    private static final String TAG = "LotusSettings";
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.OWLSNEST;
+        return MetricsEvent.LOTUS;
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.owlsnest);
+        addPreferencesFromResource(R.xml.lotus);
     }
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
