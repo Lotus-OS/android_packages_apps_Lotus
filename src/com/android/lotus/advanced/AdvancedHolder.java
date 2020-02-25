@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pe.pixelgoodies.advanced;
+package com.android.lotus.advanced;
 
 import android.content.Context;
 import android.os.Bundle;

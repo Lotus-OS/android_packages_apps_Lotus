@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pe.pixelgoodies.lockscreen;
+package com.android.lotus.lockscreen;
 
 import android.content.Context;
 import android.os.Bundle;
