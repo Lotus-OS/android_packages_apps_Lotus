@@ -37,7 +37,7 @@ public class NotificationHolder extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.PIXELGOODIES;
+        return MetricsEvent.LOTUS;
     }
 
 
