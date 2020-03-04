@@ -47,6 +47,14 @@
             android:fragment="com.lotus.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>       
 
+        <!-- Gestures -->
+        <Preference
+            android:key="gestures_category"
+            android:title="@string/gestures_title"
+            android:fragment="com.lotus.settings.fragments.GestureSettings"
+            android:icon="@drawable/ic_settings_gesture"/>
+
+      
         <!-- Lock Screen -->
         <Preference
             android:key="lockscreen_category"
@@ -61,12 +69,12 @@
             android:fragment="com.lotus.settings.fragments.PowerMenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
-        <!-- Recents -->
+        <!-- Recents
         <Preference
             android:key="recents_category"
             android:title="@string/recents_title"
             android:fragment="com.lotus.settings.fragments.RecentsSettings"
-            android:icon="@drawable/ic_settings_recents"/>
+            android:icon="@drawable/ic_settings_recents"/> -->
 
         <!-- Notifications -->
         <Preference
